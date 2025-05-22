@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Night Safari - Jaisalmer Sam Desert</title>
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-white sticky top-0 z-50 shadow-md">
+    <div class="container-custom">
+      <nav class="flex justify-between items-center py-4">
+        <a href="/" class="flex items-center space-x-2">
+          <span class="text-2xl font-serif font-bold text-night">Jaisalmer<span class="text-desert">Sam</span></span>
+        </a>
+        
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex space-x-4">
+          <a href="/" class="nav-link font-medium">Home</a>
+          <a href="/pages/about.html" class="nav-link font-medium">About Us</a>
+          <a href="/pages/safari-packages.html" class="nav-link font-medium">Safari Packages</a>
+          <a href="/pages/contact.html" class="nav-link font-medium">Contact</a>
+        </div>
+        
+        <!-- Mobile Menu Button -->
+        <button id="menu-toggle" class="md:hidden text-night hover:text-desert focus:outline-none">
+          <i class="fas fa-bars text-xl"></i>
+        </button>
+      </nav>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white pb-4">
+      <div class="container-custom flex flex-col space-y-2">
+        <a href="/" class="nav-link py-3 border-b border-gray-200">Home</a>
+        <a href="/pages/about.html" class="nav-link py-3 border-b border-gray-200">About Us</a>
+        <a href="/pages/safari-packages.html" class="nav-link py-3 border-b border-gray-200">Safari Packages</a>
+        <a href="/pages/contact.html" class="nav-link py-3">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative">
+    <div class="h-[500px] bg-cover bg-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1066345590/photo/camel-animal-is-sitting-on-the-sand-dune-in-a-desert-milky-way-galaxy-and-stars-in-the-sky.jpg?s=612x612&w=0&k=20&c=KUGU295n9ooBP84nuDYDwCNkJSIb1AiY6dDiMXlfuOs=');">
+      <div class="container-custom h-full flex items-center">
+        <div class="text-white max-w-2xl">
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-4">Night Safari in Sam Desert</h1>
+          <p class="text-xl mb-6">Feel the Thrill of the Desert After Dark</p>
+          <a href="/pages/contact.html" class="btn-primary">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="py-16 bg-white">
+    <div class="container-custom">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <!-- Left Content -->
+        <div class="lg:col-span-2">
+          <p class="text-lg mb-6">Experience the Thar Desert like never before with our exclusive Night Safari in Sam. As the sun dips below the dunes and the stars begin to twinkle, a whole new side of the desert awakens—mysterious, silent, and soul-stirring.</p>
+          
+          <p class="text-lg mb-6">Our guided night safaris take you deep into the heart of the desert in powerful 4x4 jeeps, far away from the lights and noise. Feel the cool desert breeze, watch the moonlight dance across the sand, and keep your eyes open for nocturnal desert wildlife. It's an adventure filled with awe and wonder.</p>
+          
+          <h2 class="section-subtitle mt-8">What to Expect:</h2>
+          <ul class="list-disc pl-6 space-y-2 mb-8">
+            <li>4x4 Jeep Safari under the starry sky</li>
+            <li>Spotting desert foxes, owls, and other night creatures</li>
+            <li>Moonlit views of the majestic dunes</li>
+            <li>Campfire break with light refreshments (optional)</li>
+            <li>Safe, guided experience with professional drivers</li>
+          </ul>
+          
+          <p class="text-lg mb-6">Whether you're a thrill-seeker or a stargazer, our night safari promises a magical journey through the untouched beauty of the desert.</p>
+          
+          <!-- Gallery -->
+          <h2 class="section-subtitle mt-12">Gallery</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+            <img src="https://media.istockphoto.com/id/1066345590/photo/camel-animal-is-sitting-on-the-sand-dune-in-a-desert-milky-way-galaxy-and-stars-in-the-sky.jpg?s=612x612&w=0&k=20&c=KUGU295n9ooBP84nuDYDwCNkJSIb1AiY6dDiMXlfuOs=" alt="Night Desert" class="w-full h-48 object-cover rounded-lg shadow-md">
+            <img src="https://images.pexels.com/photos/29211764/pexels-photo-29211764/free-photo-of-ornate-facade-of-hawa-mahal-in-jaipur-at-night.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Safari Jeep" class="w-full h-48 object-cover rounded-lg shadow-md">
+            <img src="https://images.pexels.com/photos/2245436/pexels-photo-2245436.png" alt="Starry Sky" class="w-full h-48 object-cover rounded-lg shadow-md">
+            <img src="https://images.pexels.com/photos/6212576/pexels-photo-6212576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Desert Sunset" class="w-full h-48 object-cover rounded-lg shadow-md">
+            <img src="https://images.pexels.com/photos/1001437/pexels-photo-1001437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Desert Wildlife" class="w-full h-48 object-cover rounded-lg shadow-md">
+            <img src="https://images.pexels.com/photos/5435099/pexels-photo-5435099.jpeg" alt="Night Camp" class="w-full h-48 object-cover rounded-lg shadow-md">
+          </div>
+        </div>
+        
+        <!-- Right Sidebar -->
+        <div>
+          <!-- Booking Info Card -->
+          <div class="bg-sand-light p-6 rounded-lg shadow-md mb-8">
+            <h3 class="text-xl font-serif font-bold mb-4">Safari Details</h3>
+            
+            <div class="space-y-4">
+              <div class="flex items-start space-x-3">
+                <i class="fas fa-clock text-desert mt-1"></i>
+                <div>
+                  <h4 class="font-bold">Duration</h4>
+                  <p>2-3 hours</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-3">
+                <i class="fas fa-calendar text-desert mt-1"></i>
+                <div>
+                  <h4 class="font-bold">Available</h4>
+                  <p>Daily (Weather permitting)</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-3">
+                <i class="fas fa-users text-desert mt-1"></i>
+                <div>
+                  <h4 class="font-bold">Group Size</h4>
+                  <p>Up to 6 people per jeep</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-3">
+                <i class="fas fa-tag text-desert mt-1"></i>
+                <div>
+                  <h4 class="font-bold">Price</h4>
+                  <p>Starting from ₹2,500 per person</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-3">
+                <i class="fas fa-utensils text-desert mt-1"></i>
+                <div>
+                  <h4 class="font-bold">Refreshments</h4>
+                  <p>Light refreshments included</p>
+                </div>
+              </div>
+            </div>
+            
+            <a href="/pages/contact.html" class="btn-primary w-full text-center mt-6">Book Now</a>
+          </div>
+          
+          <!-- Other Experiences -->
+          <div class="bg-white border border-gray-200 rounded-lg shadow-md">
+            <h3 class="text-xl font-serif font-bold p-6 border-b border-gray-200">Other Experiences</h3>
+            <ul>
+              <li class="border-b border-gray-200">
+                <a href="/pages/services/royal-wedding.html" class="block p-4 hover:bg-sand-light transition duration-300">
+                  <div class="flex items-center space-x-3">
+                    <img src="https://images.pexels.com/photos/3491945/pexels-photo-3491945.jpeg" alt="Royal Wedding" class="w-16 h-16 object-cover rounded-md">
+                    <div>
+                      <h4 class="font-bold">Royal Weddings</h4>
+                      <p class="text-sm text-gray-600">Desert destination weddings</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="border-b border-gray-200">
+                <a href="/pages/services/afghan-night.html" class="block p-4 hover:bg-sand-light transition duration-300">
+                  <div class="flex items-center space-x-3">
+                    <img src="https://images.pexels.com/photos/3551225/pexels-photo-3551225.jpeg" alt="Afghan Night" class="w-16 h-16 object-cover rounded-md">
+                    <div>
+                      <h4 class="font-bold">Afghan Night</h4>
+                      <p class="text-sm text-gray-600">Cultural desert experience</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/pages/services/camel-safari.html" class="block p-4 hover:bg-sand-light transition duration-300">
+                  <div class="flex items-center space-x-3">
+                    <img src="https://images.pexels.com/photos/14679195/pexels-photo-14679195.jpeg" alt="Camel Safari" class="w-16 h-16 object-cover rounded-md">
+                    <div>
+                      <h4 class="font-bold">Long Camel Safari</h4>
+                      <p class="text-sm text-gray-600">2 Night 3 Days adventure</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-16 bg-sand-light">
+    <div class="container-custom">
+      <h2 class="section-title text-center mb-12">What Our Guests Say</h2>
+      
+      <div class="swiper testimonial-swiper">
+        <div class="swiper-wrapper pb-12">
+          <!-- Testimonial 1 -->
+          <div class="swiper-slide">
+            <div class="bg-white p-8 rounded-lg shadow-md max-w-lg mx-auto">
+              <div class="flex items-center mb-4">
+                <div class="text-desert">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <p class="text-gray-700 mb-6">"The night safari was absolutely magical! Seeing the desert under the stars was an unforgettable experience. The guides were knowledgeable and friendly, making the entire trip perfect."</p>
+              <div class="flex items-center">
+                <div>
+                  <h4 class="font-bold">Sarah Johnson</h4>
+                  <p class="text-sm text-gray-600">United Kingdom</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Testimonial 2 -->
+          <div class="swiper-slide">
+            <div class="bg-white p-8 rounded-lg shadow-md max-w-lg mx-auto">
+              <div class="flex items-center mb-4">
+                <div class="text-desert">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <p class="text-gray-700 mb-6">"We spotted a desert fox and several owls during our night safari! The complete silence of the desert at night was incredible. A must-do experience in Jaisalmer!"</p>
+              <div class="flex items-center">
+                <div>
+                  <h4 class="font-bold">David Miller</h4>
+                  <p class="text-sm text-gray-600">Australia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Testimonial 3 -->
+          <div class="swiper-slide">
+            <div class="bg-white p-8 rounded-lg shadow-md max-w-lg mx-auto">
+              <div class="flex items-center mb-4">
+                <div class="text-desert">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+              <p class="text-gray-700 mb-6">"The night sky in the desert was breathtaking! So many stars! Our guide was very informative about desert ecology and wildlife. The campfire break was a nice touch too."</p>
+              <div class="flex items-center">
+                <div>
+                  <h4 class="font-bold">Anita Sharma</h4>
+                  <p class="text-sm text-gray-600">Delhi, India</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 bg-desert">
+    <div class="container-custom text-center text-white">
+      <h2 class="text-3xl md:text-4xl font-serif font-bold mb-6">Ready for Your Night Desert Adventure?</h2>
+      <p class="text-xl max-w-2xl mx-auto mb-8">Book your night safari now and discover the silent, mysterious beauty of the Sam Desert after dark.</p>
+      <a href="/pages/contact.html" class="bg-white text-desert hover:bg-sand-light font-bold py-3 px-6 rounded-md transition duration-300 inline-block">Book Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-night text-white pt-12 pb-6">
+    <div class="container-custom">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <!-- About -->
+        <div>
+          <h3 class="text-xl font-serif font-bold mb-4">Jaisalmer Sam Desert</h3>
+          <p class="mb-4">Crafting unforgettable desert experiences in Rajasthan for over 25 years. Join us for an authentic journey through the golden dunes.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-white hover:text-desert-light transition-colors duration-300"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white hover:text-desert-light transition-colors duration-300"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white hover:text-desert-light transition-colors duration-300"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white hover:text-desert-light transition-colors duration-300"><i class="fab fa-tripadvisor"></i></a>
+          </div>
+        </div>
+        
+        <!-- Quick Links -->
+        <div>
+          <h3 class="text-xl font-serif font-bold mb-4">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a href="/" class="hover:text-desert-light transition-colors duration-300">Home</a></li>
+            <li><a href="/pages/about.html" class="hover:text-desert-light transition-colors duration-300">About Us</a></li>
+            <li><a href="/pages/safari-packages.html" class="hover:text-desert-light transition-colors duration-300">Safari Packages</a></li>
+            <li><a href="/pages/contact.html" class="hover:text-desert-light transition-colors duration-300">Contact</a></li>
+          </ul>
+        </div>
+        
+        <!-- Experiences -->
+        <div>
+          <h3 class="text-xl font-serif font-bold mb-4">Experiences</h3>
+          <ul class="space-y-2">
+            <li><a href="/pages/services/night-safari.html" class="hover:text-desert-light transition-colors duration-300">Night Safari</a></li>
+            <li><a href="/pages/services/royal-wedding.html" class="hover:text-desert-light transition-colors duration-300">Royal Weddings</a></li>
+            <li><a href="/pages/services/afghan-night.html" class="hover:text-desert-light transition-colors duration-300">Afghan Night</a></li>
+            <li><a href="/pages/services/dinner-dunes.html" class="hover:text-desert-light transition-colors duration-300">Dinner on Dunes</a></li>
+            <li><a href="/pages/services/camel-safari.html" class="hover:text-desert-light transition-colors duration-300">Long Camel Safari</a></li>
+          </ul>
+        </div>
+        
+        <!-- Contact -->
+        <div>
+          <h3 class="text-xl font-serif font-bold mb-4">Contact Us</h3>
+          <ul class="space-y-2">
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-map-marker-alt mt-1"></i>
+              <span>Sam Sand Dunes, Jaisalmer, Rajasthan, India</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-phone-alt mt-1"></i>
+              <span>+91 98765 43210</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-envelope mt-1"></i>
+              <span>info@jaisalmersamdesert.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <hr class="border-gray-700 mb-6">
+      
+      <div class="text-center text-sm text-gray-400">
+        <p>&copy; 2025 Jaisalmer Sam Desert. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

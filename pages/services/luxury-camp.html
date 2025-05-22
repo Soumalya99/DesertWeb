@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Desert Camp Experience - Jaisalmer Sam Desert</title>
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-white sticky top-0 z-50 shadow-md">
+    <div class="container-custom">
+      <nav class="flex justify-between items-center py-4">
+        <a href="/" class="flex items-center space-x-2">
+          <span class="text-2xl font-serif font-bold text-night">Jaisalmer<span class="text-desert">Sam</span></span>
+        </a>
+        
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex space-x-4">
+          <a href="/" class="nav-link font-medium">Home</a>
+          <a href="/pages/about.html" class="nav-link font-medium">About Us</a>
+          <a href="/pages/safari-packages.html" class="nav-link font-medium">Safari Packages</a>
+          <a href="/pages/contact.html" class="nav-link font-medium">Contact</a>
+        </div>
+        
+        <!-- Mobile Menu Button -->
+        <button id="menu-toggle" class="md:hidden text-night hover:text-desert focus:outline-none">
+          <i class="fas fa-bars text-xl"></i>
+        </button>
+      </nav>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white pb-4">
+      <div class="container-custom flex flex-col space-y-2">
+        <a href="/" class="nav-link py-3 border-b border-gray-200">Home</a>
+        <a href="/pages/about.html" class="nav-link py-3 border-b border-gray-200">About Us</a>
+        <a href="/pages/safari-packages.html" class="nav-link py-3 border-b border-gray-200">Safari Packages</a>
+        <a href="/pages/contact.html" class="nav-link py-3">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative">
+    <div class="h-[600px] bg-cover bg-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/2662816/pexels-photo-2662816.jpeg');">
+      <div class="container-custom h-full flex items-center">
+        <div class="text-white max-w-2xl">
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-4">Royal Desert Camp Experience</h1>
+          <p class="text-xl mb-6">Immerse yourself in luxury amidst the golden dunes of Rajasthan</p>
+          <a href="/pages/contact.html" class="btn-primary">Book Your Stay</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Luxury Accommodations -->
+  <section class="py-16 bg-white">
+    <div class="container-custom">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="section-title">Luxury Accommodations</h2>
+          <p class="text-lg mb-6">Experience royal living in our meticulously designed Swiss-style tents and cottages, where traditional Rajasthani elegance meets modern comfort.</p>
+          <ul class="space-y-4">
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-check-circle text-desert mt-1"></i>
+              <span>Traditional Rajasthani welcome ceremony</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-check-circle text-desert mt-1"></i>
+              <span>Elegantly furnished Swiss tents with private bathrooms</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-check-circle text-desert mt-1"></i>
+              <span>24/7 room service and modern amenities</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-check-circle text-desert mt-1"></i>
+              <span>Climate-controlled accommodations</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img src="https://images.pexels.com/photos/3754596/pexels-photo-3754596.jpeg" alt="Luxury Tent Interior" class="rounded-lg shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Culinary Delights -->
+  <section class="py-16 bg-sand-light">
+    <div class="container-custom">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="order-2 lg:order-1">
+          <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg" alt="Rajasthani Thali" class="rounded-lg shadow-lg">
+        </div>
+        <div class="order-1 lg:order-2">
+          <h2 class="section-title">Culinary Delights</h2>
+          <p class="text-lg mb-6">Savor the authentic flavors of Rajasthan with our carefully curated dining experiences.</p>
+          <ul class="space-y-4">
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-utensils text-desert mt-1"></i>
+              <span>Traditional Rajasthani gala dinner under the stars</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-coffee text-desert mt-1"></i>
+              <span>Fresh breakfast spreads with local specialties</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-glass-cheers text-desert mt-1"></i>
+              <span>Complimentary refreshments and local snacks</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-tint text-desert mt-1"></i>
+              <span>Mineral water provided throughout your stay</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cultural Immersion -->
+  <section class="py-16 bg-white">
+    <div class="container-custom">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="section-title">Cultural Immersion</h2>
+          <p class="text-lg mb-6">Immerse yourself in the rich cultural heritage of Rajasthan through our curated performances and experiences.</p>
+          <ul class="space-y-4">
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-music text-desert mt-1"></i>
+              <span>Traditional Rajasthani folk performances</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-drum text-desert mt-1"></i>
+              <span>Live folk music by local artists</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-theater-masks text-desert mt-1"></i>
+              <span>Cultural dance exhibitions</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-compact-disc text-desert mt-1"></i>
+              <span>Evening DJ party under desert stars</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img src="https://images.pexels.com/photos/2062332/pexels-photo-2062332.jpeg" alt="Cultural Performance" class="rounded-lg shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Desert Adventures -->
+  <section class="py-16 bg-sand-light">
+    <div class="container-custom">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="order-2 lg:order-1">
+          <img src="https://images.pexels.com/photos/4577792/pexels-photo-4577792.jpeg" alt="Camel Safari" class="rounded-lg shadow-lg">
+        </div>
+        <div class="order-1 lg:order-2">
+          <h2 class="section-title">Desert Adventures</h2>
+          <p class="text-lg mb-6">Experience the magic of the Thar Desert through our carefully curated adventures.</p>
+          <ul class="space-y-4">
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-sun text-desert mt-1"></i>
+              <span>Sunset camel safari through golden dunes</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-camera text-desert mt-1"></i>
+              <span>Professional photography opportunities</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-map-marked-alt text-desert mt-1"></i>
+              <span>Guided desert exploration</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-star text-desert mt-1"></i>
+              <span>Stargazing sessions with experts</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Opportunities -->
+  <section class="py-16 bg-white">
+    <div class="container-custom">
+      <h2 class="section-title text-center mb-12">Capture Memories</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <img src="https://images.pexels.com/photos/3889843/pexels-photo-3889843.jpeg" alt="Desert Sunset" class="rounded-lg shadow-lg h-64 w-full object-cover">
+        <img src="https://images.pexels.com/photos/2245436/pexels-photo-2245436.png" alt="Night Sky" class="rounded-lg shadow-lg h-64 w-full object-cover">
+        <img src="https://images.pexels.com/photos/3330813/pexels-photo-3330813.jpeg" alt="Desert Landscape" class="rounded-lg shadow-lg h-64 w-full object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- Package Details -->
+  <section class="py-16 bg-sand-light">
+    <div class="container-custom">
+      <h2 class="section-title text-center mb-12">All-Inclusive Package</h2>
+      <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-xl font-serif font-bold mb-4">Package Includes</h3>
+            <ul class="space-y-3">
+              <li class="flex items-start space-x-3">
+                <i class="fas fa-check text-desert mt-1"></i>
+                <span>Luxury accommodation</span>
+              </li>
+              <li class="flex items-start space-x-3">
+                <i class="fas fa-check text-desert mt-1"></i>
+                <span>All meals and refreshments</span>
+              </li>
+              <li class="flex items-start space-x-3">
+                <i class="fas fa-check text-desert mt-1"></i>
+                <span>Cultural performances</span>
+              </li>
+              <li class="flex items-start space-x-3">
+                <i class="fas fa-check text-desert mt-1"></i>
+                <span>Camel safari</span>
+              </li>
+              <li class="flex items-start space-x-3">
+                <i class="fas fa-check text-desert mt-1"></i>
+                <span>Evening entertainment</span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl font-serif font-bold mb-4">Additional Information</h3>
+            <ul class="space-y-3">
+              <li class="flex items-start space-x-3">
+                <i class="fas fa-clock text-desert mt-1"></i>
+                <span>Check-in: 2:00 PM</span>
+              </li>
+              <li class="flex items-start space-x-3">
+                <i class="fas fa-clock text-desert mt-1"></i>
+                <span>Check-out: 11:00 AM</span>
+              </li>
+              <li class="flex items-start space-x-3">
+                <i class="fas fa-users text-desert mt-1"></i>
+                <span>Minimum stay: 1 night</span>
+              </li>
+              <li class="flex items-start space-x-3">
+                <i class="fas fa-calendar text-desert mt-1"></i>
+                <span>Best season: October to March</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center mt-8">
+          <a href="/pages/contact.html" class="btn-primary">Book Your Experience</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-night text-white pt-12 pb-6">
+    <div class="container-custom">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <!-- About -->
+        <div>
+          <h3 class="text-xl font-serif font-bold mb-4">Jaisalmer Sam Desert</h3>
+          <p class="mb-4">Crafting unforgettable desert experiences in Rajasthan for over 25 years. Join us for an authentic journey through the golden dunes.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-white hover:text-desert-light transition-colors duration-300"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white hover:text-desert-light transition-colors duration-300"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white hover:text-desert-light transition-colors duration-300"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white hover:text-desert-light transition-colors duration-300"><i class="fab fa-tripadvisor"></i></a>
+          </div>
+        </div>
+        
+        <!-- Quick Links -->
+        <div>
+          <h3 class="text-xl font-serif font-bold mb-4">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a href="/" class="hover:text-desert-light transition-colors duration-300">Home</a></li>
+            <li><a href="/pages/about.html" class="hover:text-desert-light transition-colors duration-300">About Us</a></li>
+            <li><a href="/pages/safari-packages.html" class="hover:text-desert-light transition-colors duration-300">Safari Packages</a></li>
+            <li><a href="/pages/contact.html" class="hover:text-desert-light transition-colors duration-300">Contact</a></li>
+          </ul>
+        </div>
+        
+        <!-- Experiences -->
+        <div>
+          <h3 class="text-xl font-serif font-bold mb-4">Experiences</h3>
+          <ul class="space-y-2">
+            <li><a href="/pages/services/night-safari.html" class="hover:text-desert-light transition-colors duration-300">Night Safari</a></li>
+            <li><a href="/pages/services/royal-wedding.html" class="hover:text-desert-light transition-colors duration-300">Royal Weddings</a></li>
+            <li><a href="/pages/services/afghan-night.html" class="hover:text-desert-light transition-colors duration-300">Afghan Night</a></li>
+            <li><a href="/pages/services/dinner-dunes.html" class="hover:text-desert-light transition-colors duration-300">Dinner on Dunes</a></li>
+            <li><a href="/pages/services/camel-safari.html" class="hover:text-desert-light transition-colors duration-300">Long Camel Safari</a></li>
+          </ul>
+        </div>
+        
+        <!-- Contact -->
+        <div>
+          <h3 class="text-xl font-serif font-bold mb-4">Contact Us</h3>
+          <ul class="space-y-2">
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-map-marker-alt mt-1"></i>
+              <span>Sam Sand Dunes, Jaisalmer, Rajasthan, India</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-phone-alt mt-1"></i>
+              <span>+91 98765 43210</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-envelope mt-1"></i>
+              <span>info@jaisalmersamdesert.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <hr class="border-gray-700 mb-6">
+      
+      <div class="text-center text-sm text-gray-400">
+        <p>&copy; 2025 Jaisalmer Sam Desert. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

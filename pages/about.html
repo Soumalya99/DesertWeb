@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Jaisalmer Sam Desert</title>
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-white sticky top-0 z-50 shadow-md">
+    <div class="container-custom">
+      <nav class="flex justify-between items-center py-4">
+        <a href="/" class="flex items-center space-x-2">
+          <span class="text-2xl font-serif font-bold text-night">Jaisalmer<span class="text-desert">Sam</span></span>
+        </a>
+        
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex space-x-4">
+          <a href="/" class="nav-link font-medium">Home</a>
+          <a href="/pages/about.html" class="nav-link font-medium">About Us</a>
+          <a href="/pages/safari-packages.html" class="nav-link font-medium">Safari Packages</a>
+          <a href="/pages/contact.html" class="nav-link font-medium">Contact</a>
+        </div>
+        
+        <!-- Mobile Menu Button -->
+        <button id="menu-toggle" class="md:hidden text-night hover:text-desert focus:outline-none">
+          <i class="fas fa-bars text-xl"></i>
+        </button>
+      </nav>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white pb-4">
+      <div class="container-custom flex flex-col space-y-2">
+        <a href="/" class="nav-link py-3 border-b border-gray-200">Home</a>
+        <a href="/pages/about.html" class="nav-link py-3 border-b border-gray-200">About Us</a>
+        <a href="/pages/safari-packages.html" class="nav-link py-3 border-b border-gray-200">Safari Packages</a>
+        <a href="/pages/contact.html" class="nav-link py-3">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-[400px] flex items-center justify-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/4132336/pexels-photo-4132336.jpeg');">
+    <div class="container-custom text-center text-white">
+      <h1 class="text-4xl md:text-5xl font-serif font-bold mb-4">About Us</h1>
+      <p class="text-xl max-w-2xl mx-auto">25 years of creating unforgettable desert experiences in Jaisalmer</p>
+    </div>
+  </section>
+
+  <!-- Our Story Section -->
+  <section class="py-16 bg-white">
+    <div class="container-custom">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="section-title">Our Story</h2>
+          <p class="text-lg mb-6">For more than two decades, we have been crafting unforgettable experiences in the heart of the Thar Desert. Located in the serene dunes of Sam, our desert camp offers a perfect blend of Rajasthani culture, comfort, and adventure.</p>
+          <p class="text-lg mb-6">Our journey began in 2000 with a simple dream – to share the authentic beauty of the Thar Desert with travelers from around the world. What started as a small family-run venture has grown into one of the most trusted names in desert tourism in Jaisalmer.</p>
+          <p class="text-lg">Over the years, we've hosted thousands of guests from across the globe, helping them create memories that last a lifetime. Our deep connection to the local culture and environment ensures that every experience we offer is authentic, sustainable, and respectful of the desert's delicate ecosystem.</p>
+        </div>
+        <div>
+          <img src="https://images.pexels.com/photos/9491250/pexels-photo-9491250.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Desert Sunset" class="rounded-lg shadow-lg w-full">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section class="py-16 bg-sand-light">
+    <div class="container-custom">
+      <h2 class="section-title text-center mb-12">Our Values</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Authenticity -->
+        <div class="bg-white p-8 rounded-lg shadow-md">
+          <div class="text-desert text-3xl mb-4">
+            <i class="fas fa-heart"></i>
+          </div>
+          <h3 class="text-xl font-serif font-bold mb-2">Authenticity</h3>
+          <p>We pride ourselves on offering genuine Rajasthani experiences, from our traditional décor to our local cuisine and cultural performances.</p>
+        </div>
+        
+        <!-- Hospitality -->
+        <div class="bg-white p-8 rounded-lg shadow-md">
+          <div class="text-desert text-3xl mb-4">
+            <i class="fas fa-hands"></i>
+          </div>
+          <h3 class="text-xl font-serif font-bold mb-2">Hospitality</h3>
+          <p>Embody the warmth and generosity of Rajasthani culture, ensuring every guest feels welcomed and valued throughout their stay.</p>
+        </div>
+        
+        <!-- Sustainability -->
+        <div class="bg-white p-8 rounded-lg shadow-md">
+          <div class="text-desert text-3xl mb-4">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <h3 class="text-xl font-serif font-bold mb-2">Sustainability</h3>
+          <p>We are committed to preserving the desert's delicate ecosystem through responsible tourism practices and minimal environmental impact.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Achievements Section -->
+  <section class="py-16 bg-night text-white">
+    <div class="container-custom">
+      <h2 class="section-title text-white text-center mb-12">Our Achievements</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+        <!-- Achievement 1 -->
+        <div>
+          <div class="text-4xl font-bold text-desert mb-2">25+</div>
+          <p class="text-xl">Years in Business</p>
+        </div>
+        
+        <!-- Achievement 2 -->
+        <div>
+          <div class="text-4xl font-bold text-desert mb-2">10,000+</div>
+          <p class="text-xl">Happy Guests</p>
+        </div>
+        
+        <!-- Achievement 3 -->
+        <div>
+          <div class="text-4xl font-bold text-desert mb-2">30+</div>
+          <p class="text-xl">Royal Weddings Hosted</p>
+        </div>
+        
+        <!-- Achievement 4 -->
+        <div>
+          <div class="text-4xl font-bold text-desert mb-2">4.8/5</div>
+          <p class="text-xl">Average Rating</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 bg-desert">
+    <div class="container-custom text-center text-white">
+      <h2 class="text-3xl md:text-4xl font-serif font-bold mb-6">Ready for Your Desert Adventure?</h2>
+      <p class="text-xl max-w-2xl mx-auto mb-8">Contact us today to book your unforgettable experience in the magical dunes of Sam, Jaisalmer.</p>
+      <a href="/pages/contact.html" class="bg-white text-desert hover:bg-sand-light font-bold py-3 px-6 rounded-md transition duration-300 inline-block">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-night text-white pt-12 pb-6">
+    <div class="container-custom">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <!-- About -->
+        <div>
+          <h3 class="text-xl font-serif font-bold mb-4">Jaisalmer Sam Desert</h3>
+          <p class="mb-4">Crafting unforgettable desert experiences in Rajasthan for over 25 years. Join us for an authentic journey through the golden dunes.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-white hover:text-desert-light transition-colors duration-300"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white hover:text-desert-light transition-colors duration-300"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white hover:text-desert-light transition-colors duration-300"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white hover:text-desert-light transition-colors duration-300"><i class="fab fa-tripadvisor"></i></a>
+          </div>
+        </div>
+        
+        <!-- Quick Links -->
+        <div>
+          <h3 class="text-xl font-serif font-bold mb-4">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a href="/" class="hover:text-desert-light transition-colors duration-300">Home</a></li>
+            <li><a href="/pages/about.html" class="hover:text-desert-light transition-colors duration-300">About Us</a></li>
+            <li><a href="/pages/safari-packages.html" class="hover:text-desert-light transition-colors duration-300">Safari Packages</a></li>
+            <li><a href="/pages/contact.html" class="hover:text-desert-light transition-colors duration-300">Contact</a></li>
+          </ul>
+        </div>
+        
+        <!-- Experiences -->
+        <div>
+          <h3 class="text-xl font-serif font-bold mb-4">Experiences</h3>
+          <ul class="space-y-2">
+            <li><a href="/pages/services/night-safari.html" class="hover:text-desert-light transition-colors duration-300">Night Safari</a></li>
+            <li><a href="/pages/services/royal-wedding.html" class="hover:text-desert-light transition-colors duration-300">Royal Weddings</a></li>
+            <li><a href="/pages/services/afghan-night.html" class="hover:text-desert-light transition-colors duration-300">Afghan Night</a></li>
+            <li><a href="/pages/services/dinner-dunes.html" class="hover:text-desert-light transition-colors duration-300">Dinner on Dunes</a></li>
+            <li><a href="/pages/services/camel-safari.html" class="hover:text-desert-light transition-colors duration-300">Long Camel Safari</a></li>
+          </ul>
+        </div>
+        
+        <!-- Contact -->
+        <div>
+          <h3 class="text-xl font-serif font-bold mb-4">Contact Us</h3>
+          <ul class="space-y-2">
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-map-marker-alt mt-1"></i>
+              <span>Sam Sand Dunes, Jaisalmer, Rajasthan, India</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-phone-alt mt-1"></i>
+              <span>+91 98765 43210</span>
+            </li>
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-envelope mt-1"></i>
+              <span>info@jaisalmersamdesert.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <hr class="border-gray-700 mb-6">
+      
+      <div class="text-center text-sm text-gray-400">
+        <p>&copy; 2025 Jaisalmer Sam Desert. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

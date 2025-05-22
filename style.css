@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Montserrat:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn-primary {
+    @apply bg-desert hover:bg-desert-dark text-white font-bold py-3 px-6 rounded-md transition duration-300 inline-block;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-serif font-bold mb-6 text-night;
+  }
+  
+  .section-subtitle {
+    @apply text-xl md:text-2xl font-serif font-medium mb-4 text-night-light;
+  }
+
+  .card {
+    @apply bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+  
+  .nav-link {
+    @apply px-3 py-2 text-night hover:text-desert transition-colors duration-300;
+  }
+  
+  .service-card {
+    @apply bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300 flex flex-col h-full;
+  }
+  
+  .service-card-img {
+    @apply w-full h-56 object-cover;
+  }
+  
+  .service-card-body {
+    @apply p-6 flex-grow;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans text-gray-800 bg-sand-light;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
