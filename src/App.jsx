@@ -6,10 +6,7 @@ import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
 import SafariPackages from './pages/SafariPackages.jsx'
-import NightSafari from './pages/services/NightSafari.jsx'
-import AfghanNight from './pages/services/AfghanNight.jsx'
-import RoyalWedding from './pages/services/RoyalWedding.jsx'
-import LuxuryCamp from './pages/services/LuxuryCamp.jsx'
+
 
 function App() {
   return (
